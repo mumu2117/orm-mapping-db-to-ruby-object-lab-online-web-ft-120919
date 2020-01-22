@@ -11,8 +11,8 @@ class Student
 
   def self.all
      sql = <<-SQL
-    # remember each row should be a new instance of the Student class	      SELECT *
-  end	      FROM students
+    SELECT *
+ 	  FROM students
     SQL
   end
 
